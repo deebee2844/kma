@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Starter Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple starter site created with HTML & CSS.</p>
+    <img src="images/example.jpg" alt="Example image" class="hero-img">
+    <button onclick="document.getElementById('contact').scrollIntoView()">Get in Touch</button>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About</h2>
+    <p>
+      This is where you can describe yourself, your business, or your project. 
+      You can expand this section with images, services, or a portfolio.
+    </p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Starter Website</p>
+  </footer>
+</body>
+</html>
